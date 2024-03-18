@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>O21_Shield_ShieldGeneratorMedium</defName>
+		<label>shield generator (medium)</label>
+		<thingClass>Building</thingClass>
+		<description>Durex Class Shield Generator, protects a reasonable area as long as you can keep it cooled below 0C (32F) and powered.\n\nDefends against both ground and air projectiles.</description>
+		<graphicData>
+			<texPath>Things/ShieldGen/SmallShield</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.15,4.15)</drawSize>
+		</graphicData>
+
+		<statBases>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<WorkToBuild>15000</WorkToBuild>
+		</statBases>
+
+		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>O21_BasicShieldTech</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+
+		<techLevel>Spacer</techLevel>
+        <size>(3, 2)</size>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<drawOffscreen>true</drawOffscreen>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+        <receivesSignals>true</receivesSignals>
+        <neverMultiSelect>true</neverMultiSelect>
+		<drawerType>MapMeshAndRealTime</drawerType>
+
+        <placeWorkers>
+            <li>O21Toolbox.Shield.PlaceWorker_ShowShieldRadius</li>
+        </placeWorkers>
+
+		<comps>
+            <li Class="O21Toolbox.Shield.CompProperties_Shield">
+                <compClass>O21Toolbox.Shield.Comp_ShieldBuilding</compClass>
+
+                <interceptAirProjectiles>true</interceptAirProjectiles>
+                <interceptGroundProjectiles>true</interceptGroundProjectiles>
+				<podBlocker>false</podBlocker>
+                <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+				<resetTime>4000</resetTime>
+
+				<powerUsageRange>-1000~-3500</powerUsageRange>
+
+				<useAmbientCooling>true</useAmbientCooling>
+				<maximumHeatLevel>0</maximumHeatLevel>
+				<heatGenRange>4~100</heatGenRange>
+
+				<stressPerDamage>0.01</stressPerDamage>
+				<empDamageFactor>4.5</empDamageFactor>
+				<shieldOverloadThreshold>0.9</shieldOverloadThreshold>
+				<shieldOverloadChance>0.05</shieldOverloadChance>
+                <extraOverloadRange>10</extraOverloadRange>
+                
+				<explodeOnCollapse>false</explodeOnCollapse>
+
+                <shieldCanBeOffset>true</shieldCanBeOffset>
+                <shieldCanBeScaled>true</shieldCanBeScaled>
+                <shieldScaleLimits>10~25</shieldScaleLimits>
+                <shieldScaleDefault>20</shieldScaleDefault>
+                
+                <shieldCanBeColored>true</shieldCanBeColored>
+                <shieldColour>(82, 255, 131)</shieldColour>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>-1000</basePowerConsumption>
+            </li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>75</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>0</heatPerSecond>
+                <heatPushMinTemperature>3000</heatPushMinTemperature>
+                <heatPushMaxTemperature>3000</heatPushMaxTemperature>
+            </li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+	</ThingDef>
+
+</Defs>

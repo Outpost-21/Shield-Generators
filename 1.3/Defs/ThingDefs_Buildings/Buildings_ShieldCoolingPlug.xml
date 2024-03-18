@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Disabled instead of deleted in-case I decide to try it again in future. Coolant Plugs were going to be how shields were cooled, by exerting the heat through to external sites that couldn't be shielded as a balance measure. Was deemed overcomplicated. -->
+    <!-- ThingDef ParentName="BuildingBase">
+		<defName>O21_Shield_CoolingPlug</defName>
+		<label>shield cooling plug</label>
+		<thingClass>Building</thingClass>
+		<description>Tantus Cooling Plug</description>
+		<graphicData>
+			<texPath>Things/ShieldGen/CoolingPlug</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.05,4.05)</drawSize>
+		</graphicData>
+
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Beauty>-20</Beauty>
+			<Mass>30</Mass>
+			<WorkToBuild>10000</WorkToBuild>
+		</statBases>
+
+		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>O21_BasicShieldTech</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+
+		<techLevel>Spacer</techLevel>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<drawOffscreen>true</drawOffscreen>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+        <receivesSignals>true</receivesSignals>
+
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+
+        <placeWorkers>
+            <li>PlaceWorker_Heater</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+
+		<comps>
+            <li Class="O21Toolbox.Shield.CompProperties_Shield">
+                <compClass>O21Toolbox.Shield.Comp_HeatRelease</compClass>
+                <shieldNetMode>Vent</shieldNetMode>
+
+                <powerPerDegree>10</powerPerDegree>
+                <usefulTemp>0</usefulTemp>
+                <maxTemp>10</maxTemp>
+                <mustBeIndoors>false</mustBeIndoors>
+                <mustBeOutdoors>false</mustBeOutdoors>
+                <canBeUnderShield>false</canBeUnderShield>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>0</basePowerConsumption>
+                <shortCircuitInRain>false</shortCircuitInRain>
+            </li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusher</compClass>
+                <heatPerSecond>0</heatPerSecond>
+                <heatPushMaxTemperature>400</heatPushMaxTemperature>
+            </li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>8.2</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+			</li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(255,150,100,0)</glowColor>
+            </li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+	</ThingDef -->
+
+</Defs>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Experimental, cool but doesn't seem to have a purpose in a base with proper shields. -->
+	<!-- Notes:
+		- Make over-wall generator, hook into plasma ducts
+		- Make new wall type functioning as nodes that extend the shield
+		- Cache tiles adjacent to notes and nodes themselves to be "shielded"
+		- CheckIntercept over the tiles covered from the central generator
+	-->
+    <!-- ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ShieldGen_ShieldWall</defName>
+        <label>wall (shielded)</label>
+        <description>An impassable repulsor shielded wall. Cannot support a roof.</description>
+        <thingClass>Building</thingClass>
+        <category>Building</category>
+        <graphicData Inherit="False">
+            <texPath>Things/Building/Linked/Wall</texPath>
+            <graphicClass>Graphic_Appearances</graphicClass>
+            <linkType>CornerFiller</linkType>
+            <linkFlags>
+                <li>Wall</li>
+                <li>Rock</li>
+            </linkFlags>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+                <edgeTop>Damage/Edge</edgeTop>
+                <edgeBot>Damage/Edge</edgeBot>
+                <edgeLeft>Damage/Edge</edgeLeft>
+                <edgeRight>Damage/Edge</edgeRight>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+        <costStuffCount>10</costStuffCount>
+        <costList Inherit="False">
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <stuffCategories Inherit="False">
+            <li>Metallic</li>
+        </stuffCategories>
+
+		<techLevel>Spacer</techLevel>
+		<tickerType>Normal</tickerType>
+        <receivesSignals>true</receivesSignals>
+		<drawOffscreen>true</drawOffscreen>
+        <neverMultiSelect>true</neverMultiSelect>
+        <coversFloor>true</coversFloor>
+        <placingDraggableDimensions>1</placingDraggableDimensions>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>true</castEdgeShadows>
+        <passability>Impassable</passability>
+        <altitudeLayer>Building</altitudeLayer>
+        <holdsRoof>false</holdsRoof>
+        <designationCategory>Structure</designationCategory>
+        <staticSunShadowHeight>1.0</staticSunShadowHeight>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <fertility>0</fertility>
+
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <blueprintGraphicData>
+                <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+            </blueprintGraphicData>
+        </building>
+
+        <placeWorkers>
+            <li>TabulaRasa.PlaceWorker_ShowShieldRadius</li>
+        </placeWorkers>
+
+        <comps>
+            <li Class="TabulaRasa.CompProperties_Shield">
+                <compClass>TabulaRasa.Comp_Shield</compClass>
+                
+                <interceptAirProjectiles>true</interceptAirProjectiles>
+                <interceptGroundProjectiles>true</interceptGroundProjectiles>
+				<podBlocker>false</podBlocker>
+                <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+				<resetTime>64000</resetTime>
+
+				<powerUsageRange>-0~-60</powerUsageRange>
+
+				<useAmbientCooling>false</useAmbientCooling>
+                <stressReduction>0.5</stressReduction>
+
+				<stressPerDamage>0.03</stressPerDamage>
+				<empDamageFactor>3.0</empDamageFactor>
+				<shieldOverloadThreshold>1</shieldOverloadThreshold>
+				<shieldOverloadChance>0</shieldOverloadChance>
+                
+				<explodeOnCollapse>false</explodeOnCollapse>
+
+                <shieldCanBeOffset>false</shieldCanBeOffset>
+                <shieldCanBeScaled>false</shieldCanBeScaled>
+                <shieldScaleLimits>1~1</shieldScaleLimits>
+                <shieldScaleDefault>1</shieldScaleDefault>
+                
+                <shieldCanBeColored>true</shieldCanBeColored>
+                <shieldColour>(82, 255, 131)</shieldColour>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>-0</basePowerConsumption>
+            </li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.6</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+        </comps>
+    </ThingDef -->
+
+</Defs>

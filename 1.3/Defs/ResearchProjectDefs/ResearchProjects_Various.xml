@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>O21_ShieldGenerators</defName>
+		<label>Shields</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>O21_BasicShieldTech</defName>
+		<label>basic shield tech</label>
+		<description>Deflector shields, capable of stopping most projectiles.</description>
+		<baseCost>6000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<tab>O21_ShieldGenerators</tab>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+			<li>ShieldBelt</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>O21_AdvancedShieldTech</defName>
+		<label>advanced shield tech</label>
+		<description>Large deflector shields, capable of spanning much larger areas and destroying incoming large objects.</description>
+		<baseCost>10000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<tab>O21_ShieldGenerators</tab>
+		<prerequisites>
+			<li>O21_BasicShieldTech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>O21_PortableShieldTech</defName>
+		<label>portable shield tech</label>
+		<description>Portable deflector shields, a much more compact variant capable of being self powered.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<tab>O21_ShieldGenerators</tab>
+		<prerequisites>
+			<li>O21_AdvancedShieldTech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>ShieldGen_CoolingPlug</defName>
+		<label>cooling plug</label>
+		<thingClass>Building</thingClass>
+		<description>Aynol Class Cooling Plug typically used in conjunction with plasma ejecting installations such as shield generators. Careful to keep this away from anything which can catch fire, under heavy load it will flare around the base. \n\nThis plug and the plasma pipes are fireproof.</description>
+		<graphicData>
+			<texPath>Things/ShieldGen/AynolPlug</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-20</Beauty>
+			<Mass>30</Mass>
+			<WorkToBuild>10000</WorkToBuild>
+		</statBases>
+		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ShieldGen_BasicShieldTech</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<drawOffscreen>true</drawOffscreen>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+        <receivesSignals>true</receivesSignals>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+        <placeWorkers>
+            <li>ShieldGen.PlaceWorker_CoolingPlug</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="PipeSystem.CompProperties_ResourceStorage">
+				<pipeNet>ShieldGen_PlasmaNetwork</pipeNet>
+				<storageCapacity>1000</storageCapacity>
+				<barSize>(1, 0.2)</barSize>
+				<margin>0.05</margin>
+				<centerOffset>(0, 0, 0.5)</centerOffset>
+			</li>
+            <li Class="ShieldGen.CompProperties_PlasmaVenting">
+				<ventPerTickLimit>20</ventPerTickLimit>
+				<radius>2.4</radius>
+				<flareMin>10</flareMin>
+            </li>
+		</comps>
+	</ThingDef>
+
+</Defs>
