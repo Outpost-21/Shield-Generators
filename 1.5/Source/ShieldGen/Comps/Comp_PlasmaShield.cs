@@ -36,13 +36,11 @@ namespace ShieldGen
 
         public void DistributePlasma(float amnt)
         {
-            if (CompResourceTrader.PipeNet.AvailableCapacity < amnt)
+            float stored;
+            CompResourceTrader.PipeNet.DistributeAmongStorage(amnt, out stored);
+            if (stored < amnt)
             {
                 OverloadShield();
-            }
-            else
-            {
-                CompResourceTrader.PipeNet.DistributeAmongStorage(amnt);
             }
         }
     }

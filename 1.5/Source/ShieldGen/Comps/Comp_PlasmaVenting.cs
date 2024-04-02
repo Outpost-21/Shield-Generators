@@ -37,7 +37,7 @@ namespace ShieldGen
                     {
                         continue;
                     }
-                    FireUtility.TryStartFireIn(cell, parent.Map, amnt / 10f);
+                    FireUtility.TryStartFireIn(cell, parent.Map, amnt / 10f, null);
                 }
             }
             VentPlasma(amnt);
