@@ -4,6 +4,8 @@
 	<ResearchTabDef MayRequire="Ludeon.RimWorld.Royalty">
 		<defName>ShieldGen_ShieldGenerators</defName>
 		<label>Shields</label>
+		<generalTitle>Shield Generator research projects</generalTitle>
+		<generalDescription>Unlock the ability to build shields.</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
@@ -22,7 +24,7 @@
 		</requiredResearchFacilities>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
@@ -51,14 +53,14 @@
 		<techLevel>Ultra</techLevel>
 		<tab>ShieldGen_ShieldGenerators</tab>
 		<prerequisites>
-			<li>ShieldGen_AdvancedShieldTech</li>
+			<li>ShieldGen_BasicShieldTech</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>2</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
