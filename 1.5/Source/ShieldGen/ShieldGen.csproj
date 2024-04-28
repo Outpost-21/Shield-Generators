@@ -45,7 +45,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="PipeSystem">
-      <HintPath>..\..\..\..\..\..\VanillaExpandedTeam\VanillaExpandedFramework\1.4\Assemblies\PipeSystem.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\workshop\content\294100\2023507013\1.5\Assemblies\PipeSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
