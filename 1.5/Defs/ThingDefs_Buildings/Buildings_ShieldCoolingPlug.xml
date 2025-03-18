@@ -38,7 +38,7 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<stealable>false</stealable>
-		<rotatable>true</rotatable>
+		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
         <receivesSignals>true</receivesSignals>
 		<thingCategories>
