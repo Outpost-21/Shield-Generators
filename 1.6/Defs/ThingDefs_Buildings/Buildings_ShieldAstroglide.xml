@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>ShieldGen_Shield_Astroglide</defName>
+		<label>shield generator (astroglide)</label>
+		<thingClass>Building</thingClass>
+		<description>Astroglide Class Shield Generator, portable but small and not all that useful outside of emergencies. Does not need plasma venting like the larger generators, and releases a small EMP blast once it fails.\n\nDefends against ground level only.</description>
+		<graphicData>
+			<texPath>Things/ShieldGen/ShieldGen_Astroglide</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Beauty>-20</Beauty>
+			<Mass>20</Mass>
+			<WorkToBuild>15000</WorkToBuild>
+		</statBases>
+		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ShieldGen_PortableShieldTech</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>50</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<drawOffscreen>true</drawOffscreen>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<receivesSignals>true</receivesSignals>
+		<neverMultiSelect>true</neverMultiSelect>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<placeWorkers>
+			<li>TabulaRasa.PlaceWorker_ShowShieldRadius</li>
+		</placeWorkers>
+		<comps>
+			<li Class="TabulaRasa.CompProperties_Shield">
+				<compClass>TabulaRasa.Comp_Shield</compClass>
+				<interceptAirProjectiles>false</interceptAirProjectiles>
+				<interceptGroundProjectiles>true</interceptGroundProjectiles>
+				<podBlocker>false</podBlocker>
+				<reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+				<resetTime>64000</resetTime>
+				<useAmbientCooling>false</useAmbientCooling>
+				<stressReduction>0.2</stressReduction>
+				<stressPerDamage>0.05</stressPerDamage>
+				<empDamageFactor>6.0</empDamageFactor>
+				<shieldOverloadThreshold>0.95</shieldOverloadThreshold>
+				<shieldOverloadChance>0.05</shieldOverloadChance>
+				<overloadDamageType>EMP</overloadDamageType>
+				<explodeOnCollapse>false</explodeOnCollapse>
+				<shieldCanBeOffset>true</shieldCanBeOffset>
+				<shieldCanBeScaled>true</shieldCanBeScaled>
+				<shieldScaleLimits>3~7</shieldScaleLimits>
+				<shieldScaleDefault>5</shieldScaleDefault>
+				<shieldCanBeColored>true</shieldCanBeColored>
+				<shieldColour>(237, 227, 133)</shieldColour>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>10.6</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<wickTicks>0~3</wickTicks>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+	</ThingDef>
+
+</Defs>

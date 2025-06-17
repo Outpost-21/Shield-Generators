@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>ShieldGen_Shield_Trojan</defName>
+		<label>shield generator (trojan)</label>
+		<thingClass>Building</thingClass>
+		<description>Trojan Class Shield Generator, huge projection range and can take a pounding. Requires plasma piping to vent through cooling plugs, and will not turn on until it is connected to cooling plugs.\n\nDefends against both ground and air projectiles. It will attempt to detect enemies in drop pods and shuttles, destroying them if it does. This system isn't perfect however and may still let some things through.</description>
+		<graphicData>
+			<texPath>Things/ShieldGen/ShieldGen_Trojan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 6)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<WorkToBuild>45000</WorkToBuild>
+		</statBases>
+		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ShieldGen_AdvancedShieldTech</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>380</Steel>
+			<Plasteel>100</Plasteel>
+			<ComponentSpacer>16</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<size>(6, 6)</size>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>50</pathCost>
+		<drawOffscreen>true</drawOffscreen>
+		<passability>PassThroughOnly</passability>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<receivesSignals>true</receivesSignals>
+		<neverMultiSelect>true</neverMultiSelect>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<placeWorkers>
+			<li>TabulaRasa.PlaceWorker_ShowShieldRadius</li>
+		</placeWorkers>
+		<comps>
+			<li Class="ShieldGen.CompProperties_PlasmaShield">
+				<compClass>ShieldGen.Comp_PlasmaShield</compClass>
+				<interceptAirProjectiles>true</interceptAirProjectiles>
+				<interceptGroundProjectiles>true</interceptGroundProjectiles>
+				<podBlocker>true</podBlocker>
+				<reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+				<resetTime>8000</resetTime>
+				<powerUsageRange>-4000~-12000</powerUsageRange>
+				<useAmbientCooling>false</useAmbientCooling>
+				<stressPerDamage>0.01</stressPerDamage>
+				<empDamageFactor>3.0</empDamageFactor>
+				<shieldOverloadThreshold>0.97</shieldOverloadThreshold>
+				<shieldOverloadChance>0.1</shieldOverloadChance>
+				<extraOverloadRange>10</extraOverloadRange>
+				<overloadDamageType>EMP</overloadDamageType>
+				<explodeOnCollapse>false</explodeOnCollapse>
+				<shieldCanBeOffset>true</shieldCanBeOffset>
+				<shieldCanBeScaled>true</shieldCanBeScaled>
+				<shieldScaleLimits>15~80</shieldScaleLimits>
+				<shieldScaleDefault>40</shieldScaleDefault>
+				<shieldCanBeColored>true</shieldCanBeColored>
+				<shieldColour>(237, 227, 133)</shieldColour>
+				<plasmaPerStress>4</plasmaPerStress>
+				<basePlasmaGen>18</basePlasmaGen>
+				<skyfallerClassWhitelist>
+					<li>VFECore.Abilities.AbilityPawnFlyer</li>
+					<li MayRequire="onyxae.dragonsdescent">DD.WingedFlyer</li>
+				</skyfallerClassWhitelist>
+			</li>
+			<li Class="PipeSystem.CompProperties_ResourceTrader">
+				<pipeNet>ShieldGen_PlasmaNetwork</pipeNet>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>-4000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>200</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+	</ThingDef>
+
+</Defs>
