@@ -50,12 +50,12 @@
 		<passability>Standable</passability>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawStyleCategory>Conduits</drawStyleCategory>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>35</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
 			<Steel>3</Steel>
 		</costList>
@@ -111,11 +111,11 @@
 		<passability>Standable</passability>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawStyleCategory>Conduits</drawStyleCategory>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>35</WorkToBuild>
 		</statBases>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<costList>
 			<Steel>3</Steel>
 		</costList>

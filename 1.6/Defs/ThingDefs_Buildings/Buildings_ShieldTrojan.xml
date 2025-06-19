@@ -69,7 +69,7 @@
 				<plasmaPerStress>4</plasmaPerStress>
 				<basePlasmaGen>18</basePlasmaGen>
 				<skyfallerClassWhitelist>
-					<li>VFECore.Abilities.AbilityPawnFlyer</li>
+					<li>VEF.Abilities.AbilityPawnFlyer</li>
 					<li MayRequire="onyxae.dragonsdescent">DD.WingedFlyer</li>
 				</skyfallerClassWhitelist>
 			</li>
