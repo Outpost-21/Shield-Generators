@@ -98,6 +98,7 @@
     <Compile Include="Utilities\SettingsUtil.cs" />
     <Compile Include="Utilities\LogUtil.cs" />
     <Compile Include="PatchOperations\PatchOperation_SettingActive.cs" />
+    <Compile Include="Patches\Patch_ShieldOffsetGravshipRotation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShieldGenMod.cs" />
     <Compile Include="ShieldGenSettings.cs" />
