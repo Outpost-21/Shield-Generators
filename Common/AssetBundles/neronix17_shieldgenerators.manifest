@@ -1,33 +1,39 @@
 ManifestFileVersion: 0
-CRC: 3848162054
+CRC: 955734070
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dd425d3aa6c055ebc4ddd890456c96cd
+    Hash: 92492b65f5dba8bf5afd8757138a97c4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2612ac43db082a73502ee80f2eceb73f
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: dd425d3aa6c055ebc4ddd890456c96cd
+    Hash: 92492b65f5dba8bf5afd8757138a97c4
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/LargeShield_south.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/LargeShield_east.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Astroglide_south.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Astroglide_east.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/Conduit/PlasmaPipe_MenuIcon.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Durex_east.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Trojan_south.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/SmallShield_east.png
 - Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/Conduit/PlasmaPipeDeconstruct_MenuIcon.png
 - Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/Conduit/PlasmaPipe_Atlas.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/Conduit/PlasmaPipe_MenuIcon.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/PortableShield_east.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/PortableShield_south.png
 - Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Trojan.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/LargeShield_east.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Durex.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/SmallShield_east.png
 - Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Astroglide.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/SmallShield_south.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/LargeShield_south.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Durex.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Trojan_east.png
 - Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/AynolPlug.png
 - Assets/Data/Neronix17.ShieldGenerators/Textures/ShieldGens/ModIcon.png
-- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/PortableShield_south.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/ShieldGen_Durex_south.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/PortableShield_east.png
+- Assets/Data/Neronix17.ShieldGenerators/Textures/Things/ShieldGen/SmallShield_south.png
 Dependencies: []

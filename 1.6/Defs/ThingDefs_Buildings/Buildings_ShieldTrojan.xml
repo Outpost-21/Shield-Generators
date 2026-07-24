@@ -8,7 +8,7 @@
 		<description>Trojan Class Shield Generator, huge projection range and can take a pounding. Requires plasma piping to vent through cooling plugs, and will not turn on until it is connected to cooling plugs.\n\nDefends against both ground and air projectiles. It will attempt to detect enemies in drop pods and shuttles, destroying them if it does. This system isn't perfect however and may still let some things through.</description>
 		<graphicData>
 			<texPath>Things/ShieldGen/ShieldGen_Trojan</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(6, 6)</drawSize>
 		</graphicData>
 		<statBases>
@@ -35,7 +35,7 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<stealable>false</stealable>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<receivesSignals>true</receivesSignals>
 		<neverMultiSelect>true</neverMultiSelect>

@@ -8,7 +8,7 @@
 		<description>Astroglide Class Shield Generator, portable but small and not all that useful outside of emergencies. Does not need plasma venting like the larger generators, and releases a small EMP blast once it fails.\n\nDefends against ground level only.</description>
 		<graphicData>
 			<texPath>Things/ShieldGen/ShieldGen_Astroglide</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 3)</drawSize>
 		</graphicData>
 		<statBases>
@@ -37,7 +37,7 @@
 		<passability>PassThroughOnly</passability>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<stealable>false</stealable>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<receivesSignals>true</receivesSignals>
 		<neverMultiSelect>true</neverMultiSelect>
