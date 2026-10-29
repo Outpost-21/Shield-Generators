@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{806212F6-DCC6-4ABF-8F8D-47376425D3BF}|ShieldGen.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\shield generators\\1.6\\source\\shieldgen\\utilities\\settingsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806212F6-DCC6-4ABF-8F8D-47376425D3BF}|ShieldGen.csproj|solutionrelative:utilities\\settingsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806212F6-DCC6-4ABF-8F8D-47376425D3BF}|ShieldGen.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\shield generators\\1.6\\source\\shieldgen\\utilities\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806212F6-DCC6-4ABF-8F8D-47376425D3BF}|ShieldGen.csproj|solutionrelative:utilities\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806212F6-DCC6-4ABF-8F8D-47376425D3BF}|ShieldGen.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\shield generators\\1.6\\source\\shieldgen\\comps\\comp_plasmashield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806212F6-DCC6-4ABF-8F8D-47376425D3BF}|ShieldGen.csproj|solutionrelative:comps\\comp_plasmashield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingsUtil.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\Utilities\\SettingsUtil.cs",
+              "RelativeDocumentMoniker": "Utilities\\SettingsUtil.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\Utilities\\SettingsUtil.cs",
+              "RelativeToolTip": "Utilities\\SettingsUtil.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:30:25.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogUtil.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\Utilities\\LogUtil.cs",
+              "RelativeDocumentMoniker": "Utilities\\LogUtil.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\Utilities\\LogUtil.cs",
+              "RelativeToolTip": "Utilities\\LogUtil.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:24:35.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comp_PlasmaShield.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\Comps\\Comp_PlasmaShield.cs",
+              "RelativeDocumentMoniker": "Comps\\Comp_PlasmaShield.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.6\\Source\\ShieldGen\\Comps\\Comp_PlasmaShield.cs",
+              "RelativeToolTip": "Comps\\Comp_PlasmaShield.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:24:17.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

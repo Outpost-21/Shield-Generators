@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B4B415-D129-B52C-4951-35EAD2B6C5C9}|ShieldGen.csproj|g:\\rwmodcategories\\neronix17\\_smallmods\\shield generators\\1.7\\source\\shieldgen\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B4B415-D129-B52C-4951-35EAD2B6C5C9}|ShieldGen.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\obj\\Debug\\ShieldGen.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\ShieldGen.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B4B415-D129-B52C-4951-35EAD2B6C5C9}|ShieldGen.csproj|g:\\rwmodcategories\\neronix17\\_smallmods\\shield generators\\1.7\\source\\shieldgen\\comps\\comp_plasmashield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B4B415-D129-B52C-4951-35EAD2B6C5C9}|ShieldGen.csproj|solutionrelative:comps\\comp_plasmashield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B4B415-D129-B52C-4951-35EAD2B6C5C9}|ShieldGen.csproj|g:\\rwmodcategories\\neronix17\\_smallmods\\shield generators\\1.7\\source\\shieldgen\\shieldgenmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B4B415-D129-B52C-4951-35EAD2B6C5C9}|ShieldGen.csproj|solutionrelative:shieldgenmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T17:07:23.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShieldGen.AssemblyInfo.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\obj\\Debug\\ShieldGen.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\ShieldGen.AssemblyInfo.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\obj\\Debug\\ShieldGen.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\ShieldGen.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T16:51:22.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comp_PlasmaShield.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\Comps\\Comp_PlasmaShield.cs",
+              "RelativeDocumentMoniker": "Comps\\Comp_PlasmaShield.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\Comps\\Comp_PlasmaShield.cs",
+              "RelativeToolTip": "Comps\\Comp_PlasmaShield.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T16:50:58.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShieldGenMod.cs",
+              "DocumentMoniker": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\ShieldGenMod.cs",
+              "RelativeDocumentMoniker": "ShieldGenMod.cs",
+              "ToolTip": "G:\\RWModCategories\\Neronix17\\_SmallMods\\Shield Generators\\1.7\\Source\\ShieldGen\\ShieldGenMod.cs",
+              "RelativeToolTip": "ShieldGenMod.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wCEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T16:50:39.054Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
